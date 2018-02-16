@@ -86,6 +86,7 @@ function reset() {
     rightAns = 0;
     wrongAns = 0;
     hasAns=false;
+    unAns=0;
     $("#answer-holder").empty();
     $(".button").hide();
     clearInterval(inter);
